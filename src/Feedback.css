@@ -1,0 +1,88 @@
+.feedback-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 50px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.feedback-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.feedback-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #058d86;
+  margin-bottom: 20px;
+}
+
+.feedback-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-card .rating {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feedback-card p {
+  color: #333;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.star {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.star.filled {
+  color: #f4a261;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #058d86;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* FEEDBACK LIST */
+
+.rating{
+  font-size: 2rem;
+  color: #f4a261;
+}
+
